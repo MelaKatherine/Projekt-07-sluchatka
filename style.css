@@ -16,4 +16,160 @@ font-weight: 700;
 
 /* -------------------------------------------------- */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
 
+.wrap{
+   max-width: 1170px;
+   padding: 0 15px; 
+   margin: 0 auto;
+}
+
+.uvod{
+  
+    background-color: #f5f5f5;
+}
+.hlavicka{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.logo{
+    width: 100px;
+}
+.hlavicka-vpravo{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    font-size: 13px;
+    align-items:center;
+}
+.menu{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+.menu li{
+ 
+}
+.menu a{
+    color: #959595;
+}
+.menu-tlacitka{
+   
+}
+.tlacitko{
+    display: inline-block;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.tlacitko-primarni{
+    background-color: #3498db;
+    color:#f5f5f5;
+}
+.tlacitko-sekundarni{
+    color: #959595;
+    border: 1px solid black;
+
+}
+
+
+
+h1{
+    font-size: 43px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.banner{
+    min-height: 600px;
+    position: relative;
+}
+.banner-text{
+    max-width: 420px;
+        
+}
+.upoutavka{
+    margin: 30px 0;
+    font-size: 18px;
+    color: #a5a5a5;
+}
+.tlacitko-velke{
+    font-size: 16px;
+    font-weight: 600;
+}
+.minitext{
+    margin-top: 15px;
+    font-size: 13px;
+}
+.minitext a, .vlastnost a{
+    text-decoration: underline;
+    color: #3498db;
+}
+.banner-foto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sekce-bila{
+    padding: 50px 0;
+}
+.vlastnosti{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.vlastnost{
+    display: flex;
+    border: 1px solid #a5a5a5;
+    padding: 30px;
+    width: calc(50% - 30px);
+}
+.vlastnost img{
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+.vlastnost p{
+    color:#a5a5a5;
+    margin: 15px 0;
+}
+
+.sekce-cerna{
+    background-color: #252525;
+}
+.paticka{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.paticka-menu{
+    display: flex;
+    font-size: 13px;
+   
+}
+.copyright{
+    color:#959595;
+}
+.paticka-menu a{
+    color:#f5f5f5;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 10px;
+}
