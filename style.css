@@ -204,6 +204,7 @@ h1{
     .hlavicka-vpravo{
         flex-direction: column;
         font-size: 12px;
+        flex-basis: auto;
     }
     .menu{
         gap: 7px;
@@ -238,13 +239,13 @@ h1{
         font-size: 11px;
     }
     
-    .vlastnosti{
+  .vlastnosti{
         flex-wrap: wrap;
     }
     .vlastnost{
         width: 100%;
         padding: 23px;
-    }
+    } 
     .vlastnost h2{
         font-size: 17px;
     }
